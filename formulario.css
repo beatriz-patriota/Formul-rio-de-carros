@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    font: normal 10 pt sans-serif;
+    text-align: center;
+}
+
+header { 
+    color: black;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.363);
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+section.esq {   
+    margin-left: 250px;
+    height: 500px;
+    margin-top: 50px;
+    
+
+
+}
+
+aside.lateral {
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    margin: auto;
+    margin-right: 250px;
+    margin-top: -530px;
+    width: 450px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+table{
+    border: 1px solid #606060;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    border: 1px solid #606060;
+    padding: 15px;
+    text-align: center;
+}
+th,td { 
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #606060;
+
+}
+
+
+button {
+    border-radius: 10px;
+    width:80px ;
+    height:40px ;
+    background-color:steelblue;
+    color: white;  
+    font-style: bold;
+}
+
+select {
+    width: 130px;
+    color: #606060
+
+}

@@ -1,0 +1,58 @@
+body {
+  background: rgb(70, 142, 236);
+  font: normal 15pt Arial;
+}
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+  
+}
+
+div {
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+img.foto {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 100%;
+}
+
+label {
+  text-align:left;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+div#resul {
+  width: 250px ;
+  height: 200px;
+  border: 1px solid gray;
+  overflow: scroll;
+  
+}
+img#calc{
+  height: 220px;
+  width: 220px;
+  position: relative;
+  top: -220px;  
+  float: right ;
+  border-radius: 100%;
+} 

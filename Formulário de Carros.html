@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <header>
+    <h1>Formulário</h1>
+  </header>
+  <body>
+    <section class="esq">
+      <div>
+        Insira as informações abaixo:
+      </div>
+      <div>
+        Nome:
+        <input type="text" id="nome" />
+      </div>
+      <div>
+        Telefone:
+        <input type="text" id="numero" />
+      </div>
+      <div>
+        <button type="button" onclick="Adicionar()">Adicionar</button>
+      </div>
+    </section>
+    <aside class="lateral">
+      <label>Selecione:</label>
+      <select id="select">
+        <option value="">Selecione o nome</option>
+        <!-- NO JAVASCRIPT
+            <option value="Pessoa1">Pessoa 1</option>
+            <option value="Pessoa2">Pessoa 2</option>
+            <option value="Pessoa3">Pessoa 3</option>-->
+      </select>
+      <div>
+        Insira os carros dessa pessoa:
+      </div>
+      <div>
+        Marca:
+        <input type="text" id="marca" />
+      </div>
+      <div>
+        Ano:
+        <input type="number" id="ano" />
+      </div>
+      <div>
+        Valor (R$):
+        <input type="number" id="valor">
+      </div>
+      <div>
+        <button type="button" onclick="Inserir()">Inserir</button>
+      </div>
+      <div>
+        <button type="button" onclick="Exibir()">Exibir informações</button>
+      </div>
+      <div id="respostas"></div>
+    </aside>
+  </body>
+  <script src="form4.js"></script>
+</html>
